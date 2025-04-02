@@ -21,7 +21,10 @@ No es necessita cap servidor ni instal·lació de dependències.
 
 ## ▶️ Execució
 
-?
+Per visualitzar la pàgina web obre el fitxer index.html amb un navegador web.
+
+Opcionalment, si tens instal·lat **Live Server** a Visual Studio Code, pots fer clic dret sobre `index.html` i seleccionar "Open with Live Server" per veure la pàgina amb actualització en temps real.
+
 
 ## 🤝 Contribucions
 
