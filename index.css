@@ -77,6 +77,10 @@ header {
     border-radius: 5px;
 }
 
+.close-icon:hover {
+    cursor: pointer;
+}
+
 nav input {
     display: none;
 }
