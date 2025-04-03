@@ -201,7 +201,7 @@ h3 {
     display: none;
     position: relative;
     align-items: center;
-    gap: 50px;
+    gap: 70px;
     flex-direction: column;
 }
 
@@ -211,12 +211,13 @@ h3 {
 
 .article h3 {
     color: #000;
+    margin-top: 20px;
 }
 
 .article-info {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -232,7 +233,7 @@ h3 {
     border-top-right-radius: 200px;
     border-bottom-right-radius: 200px;
     left: -50px;
-    bottom: 250px;
+    bottom: 300px;
 }
 
 #simple,
@@ -311,7 +312,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 90%;
 }
 
 .fourth-section img {
@@ -327,12 +328,14 @@ ul {
 }
 
 .questions input,
-p {
+.questions p {
     display: none;
 }
 
 .questions input:checked ~ p {
     display: block;
+    text-align: start;
+    width: 90%;
 }
 
 .fifth-section {
@@ -499,6 +502,10 @@ a {
         width: 50%;
     }
 
+    .first-info {
+        gap: 50px;
+    }
+
     .first-btns {
         width: 100%;
         justify-content: start;
@@ -517,7 +524,7 @@ a {
     }
 
     .second-section p {
-        width: 50%;
+        width: 70%;
         text-align: center;
     }
 
@@ -576,8 +583,8 @@ a {
     }
 
     .secondblue-bg {
-        top: 60px;
-        height: 80%;
+        top: 80px;
+        height: 90%;
     }
 
     .article p {
@@ -615,10 +622,6 @@ a {
 
     .card:nth-child(3) {
         margin-top: 4rem;
-    }
-
-    .fourth-section li {
-        gap: 100px;
     }
 
     .third-section p,
