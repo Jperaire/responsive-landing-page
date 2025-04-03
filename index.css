@@ -178,32 +178,26 @@ h3 {
     background-color: rgb(247, 247, 247);
 }
 
-.features h3 {
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+.features label h3 {
     padding: 20px 50px;
     border-top: 1px solid rgb(164, 163, 163);
 }
 
-.features h3:last-child {
+.features label:last-of-type h3 {
     border-bottom: 1px solid rgb(164, 163, 163);
 }
 
 .article {
+    display: none;
     position: relative;
-}
-
-.second-section-info,
-.third-section-info {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 20px;
-}
-
-.secondblue-bg {
-    border-top-right-radius: 200px;
-    border-bottom-right-radius: 200px;
-    left: -50px;
-    bottom: 300px;
+    gap: 50px;
+    flex-direction: column;
 }
 
 .article img {
@@ -221,11 +215,45 @@ h3 {
     align-items: center;
 }
 
-.article {
+.second-section-info,
+.third-section-info {
     display: flex;
-    align-items: center;
-    gap: 100px;
     flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.secondblue-bg {
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    left: -50px;
+    bottom: 250px;
+}
+
+#simple,
+#speedy,
+#easy {
+    display: none;
+}
+
+.simple,
+.speedy,
+.easy {
+    display: none;
+}
+
+.features-content {
+    margin-top: 50px;
+}
+
+#simple:checked ~ .features-content .simple,
+#speedy:checked ~ .features-content .speedy,
+#easy:checked ~ .features-content .easy {
+    display: flex;
+}
+
+input:checked + label h3 {
+    font-weight: 700;
 }
 
 .cards {
@@ -482,25 +510,34 @@ ASDKFLÑASJDF*/
         text-align: center;
     }
 
-    .features h3 {
-        border-top: none;
-        font-weight: 400;
-    }
-
     .features {
         display: flex;
-        border-bottom: 1px solid rgb(164, 163, 163);
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
-    .features h3:last-child {
-        border-bottom: none;
+    .features > label {
+        display: inline-block;
+        width: auto;
+    }
+
+    .features > label h3 {
+        border: none;
+        font-weight: 400;
+        padding: 20px 30px;
+        display: inline-block;
+    }
+
+    .features label h3:last-child {
+        border-bottom: 2px solid transparent;
+    }
+
+    .features label h3:hover {
         border-bottom: 2px solid var(--second-color);
     }
-    .features h3:hover {
-        color: var(--second-color);
-    }
 
-    .article {
+    .features-content .article {
         flex-direction: row;
         gap: 20px;
         justify-content: center;
@@ -510,7 +547,7 @@ ASDKFLÑASJDF*/
     .article-info {
         flex-direction: column;
         gap: 30px;
-        align-items: start;
+        align-items: flex-start;
         width: 50%;
     }
 
@@ -521,8 +558,8 @@ ASDKFLÑASJDF*/
         width: 50%;
     }
 
-    .article img {
-        width: 80%;
+    .article-img img {
+        width: 85%;
     }
 
     .article button {
@@ -530,7 +567,8 @@ ASDKFLÑASJDF*/
     }
 
     .secondblue-bg {
-        top: 50px;
+        top: 60px;
+        height: 80%;
     }
 
     .article p {
