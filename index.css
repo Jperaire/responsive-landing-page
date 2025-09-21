@@ -222,8 +222,7 @@ h3 {
     align-items: center;
 }
 
-.second-section-info,
-.third-section-info {
+.section-info {
     display: flex;
     flex-direction: column;
     align-items: center;
