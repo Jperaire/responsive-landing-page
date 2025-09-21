@@ -1,3 +1,4 @@
+/* ========== Fonts & Reset ========== */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
@@ -6,6 +7,7 @@
     box-sizing: border-box;
 }
 
+/* ========== Root Variables ========== */
 :root {
     --main-color: #4e61d3;
     --main-font: "Montserrat", sans-serif;
@@ -13,6 +15,7 @@
     --third-color: rgb(91, 91, 91);
 }
 
+/* ========== Base Layout & Typography ========== */
 body {
     max-width: 1000px;
     width: 100%;
@@ -21,6 +24,7 @@ body {
     font-family: var(--main-font);
 }
 
+/* ========== Header & Navigation ========== */
 header {
     display: flex;
     align-items: center;
@@ -32,6 +36,7 @@ header {
     display: none;
 }
 
+/* ========== Overlay Menu (Mobile) ========== */
 .overlay {
     display: none;
     background-color: rgba(37, 41, 78, 0.98);
@@ -93,6 +98,7 @@ nav input:checked ~ .overlay {
     display: none;
 }
 
+/* ========== Main & Sections (generic) ========== */
 main {
     display: flex;
     flex-direction: column;
@@ -106,6 +112,7 @@ section {
     gap: 40px;
 }
 
+/* ========== Buttons & Text Elements ========== */
 button {
     background-color: var(--main-color);
     color: #fff;
@@ -148,6 +155,7 @@ h3 {
     color: rgb(99, 98, 98);
 }
 
+/* ========== HERO SECTION ========== */
 .hero-section {
     position: relative;
 }
@@ -188,6 +196,7 @@ h3 {
     background-color: rgb(247, 247, 247);
 }
 
+/* ========== FEATURES SECTION ========== */
 .features {
     display: flex;
     flex-direction: column;
@@ -262,6 +271,7 @@ input:checked + label h3 {
     font-weight: 700;
 }
 
+/* ========== DOWNLOAD SECTION ========== */
 .cards {
     display: flex;
     flex-direction: column;
@@ -290,6 +300,7 @@ input:checked + label h3 {
     font-size: 0.9rem;
 }
 
+/* ========== FAQ SECTION ========== */
 ul {
     list-style: none;
 }
@@ -338,6 +349,7 @@ ul {
     width: 90%;
 }
 
+/* ========== NEWSLETTER SECTION ========== */
 .newsletter-section {
     background-color: var(--main-color);
     color: #fff;
@@ -381,6 +393,7 @@ input::placeholder {
     font-size: 0.8rem;
 }
 
+/* ========== FOOTER ========== */
 footer {
     background-color: rgb(37, 41, 78);
     color: white;
