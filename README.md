@@ -1,37 +1,41 @@
-# 1.1 - Maquetació amb HTML i CSS
+# Responsive Landing Page
 
-## 📄 Descripció
+## 📄 Description
 
-Aquest projecte consisteix en la clonació d'una pàgina web utilitzant HTML i CSS. 
+This project is a **responsive landing page** built to practice HTML and CSS layout and styling by cloning an existing design.
 
-## 💻 Tecnologies Utilitzades
+## 💻 Technologies Used
 
 - HTML5  
 - CSS3
 
-## 📋 Requisits
+## 📸 Preview
 
-Per visualitzar aquest projecte només necessites un navegador web modern (com Chrome, Firefox o Edge).  
-No es necessita cap servidor ni instal·lació de dependències.
+![Project Preview](./assets/screenshot.png)
 
-## 🛠️ Instal·lació
+## 📋 Requirements
 
-1. Clona aquest repositori: -> git clone
-2. Accedeix al directori del projecte:   cd 1.1-Maquetació
+To view this project you only need a modern web browser (such as Chrome, Firefox, or Edge).  
+No server or dependency installation is required.
 
-## ▶️ Execució
+## 🛠️ Installation
 
-Per visualitzar la pàgina web obre el fitxer index.html amb un navegador web.
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/Jperaire/responsive-landing-page.git
+```
 
-Opcionalment, si tens instal·lat **Live Server** a Visual Studio Code, pots fer clic dret sobre `index.html` i seleccionar "Open with Live Server" per veure la pàgina amb actualització en temps real.
+2. Navigate to the project directory:
+
+   ```bash
+   cd responsive-landing-page
+   ```
+
+## ▶️ Usage
+
+Open the `index.html` file directly in your browser to view the page.
+
+Optionally, if you have **Live Server** installed in Visual Studio Code, you can right-click on `index.html` and select **"Open with Live Server"** to see the page with live reloading.
 
 
-## 🤝 Contribucions
 
-Les contribucions són benvingudes! Per favor, segueix els següents passos per a contribuir:
-
-1. Fes un fork del repositori
-2. Crea una nova branca   git checkout -b feature/NovaFuncionalitat
-3. Fes els teus canvis i commiteja'ls:   git commit -m 'Afegeix Nova Funcionalitat'
-4. Puja els canvis a la teva branca:   git push origin feature/NovaFuncionalitat
-5. Fes un pull request
