@@ -23,7 +23,7 @@ No server or dependency installation is required.
 1. Clone this repository:  
    ```bash
    git clone https://github.com/Jperaire/responsive-landing-page.git
-```
+   ```
 
 2. Navigate to the project directory:
 
